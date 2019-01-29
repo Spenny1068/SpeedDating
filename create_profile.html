@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Create a Profile</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body style="background-image:url(img/registration.png);background-size:cover;">
+    <div id="register">
+      <form action="register" method="post">
+        <div class="col-3 right-center" style="top:17%">
+        <div class="form-group" style="width:300px">
+          <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+        </div>
+
+        <div class="form-group" style="width:300px" >
+          <input type="number" min="12" class="form-control" id="age" name="age" placeholder="Age">
+        </div>
+
+        <div class="form-group" style="width:300px" >
+          <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+        </div>
+
+        <div class="form-group" style="width:300px" >
+          <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+        </div>
+
+        <h3>Preferences</h3>
+    		<div class="form-check">
+    			<input class="form-check-input" type="checkbox" id="male">
+          <label class="form-check-label" for="male" style="color:white">Male</Label>
+        </div>
+
+        <div class="form-check">
+    			<input class="form-check-input" type="checkbox" id="female">
+          <label class="form-check-label" for="female" style="color:white">Female</Label>
+        </div>
+
+        <div class="form-check">
+    			<input class="form-check-input" type="checkbox" id="other">
+          <label class="form-check-label" for="other" style="color:white">Other</Label>
+    		</div>
+
+        <h3 style="margin-top:10px">Interests</h3>
+    		<div class="form-check">
+    			<input class="form-check-input" type="checkbox" id="programming">
+          <label class="form-check-label" for="programming" style="color:white">Programming</Label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="sports">
+          <label class="form-check-label" for="sports" style="color:white">Sports</Label>
+        </div>
+
+        <div class="form-check">
+    			<input class="form-check-input" type="checkbox" id="cooking">
+          <label class="form-check-label" for="cooking" style="color:white">Cooking</Label>
+        </div>
+
+        <div class="form-check">
+    			<input class="form-check-input" type="checkbox" id="dancing">
+          <label class="form-check-label" for="dancing" style="color:white">Dancing</Label>
+    		</div>
+
+        <div class="form-group" style="margin-top:15px">
+          <button type="submit" class="btn btn-custom-outline btn-lg"  style="width:300px" name="action">Submit</button>
+        </div>
+      </div>
+      </form>
+    </div>
+
+  </body>
