@@ -1,4 +1,7 @@
-Speed dating web-application - nwHacks 2019 submission
+# Speed dating web-application - nwHacks 2019 submission
+## About
+This speed dating web-application provides timed, face-to-face video chat with anonymous or registered users.
+
 ## Screenshots
 <p float="left">
   <img src="Screenshots/Home.png" width="350" />
